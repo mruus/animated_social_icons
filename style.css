@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: poppins;
+  font-size: 25px;
+  margin-bottom: 100px;
+  color: black;
+}
+
+h1 span {
+  font-weight: bold;
+  color: green;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .bar {
+  background-color: rgb(7, 96, 7);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px 0px gray;
+  z-index: 999;
+}
+
+.container .bar ion-icon {
+  font-size: 25px;
+  color: white;
+}
+
+.container .icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  box-shadow: 0px 0px 3px 0px gray;
+  position: absolute;
+  top: 0;
+}
+
+.container .icon ion-icon {
+  font-size: 25px;
+  color: white;
+}
+
+.container .facebook {
+  background-color: #3b5998;
+  /* left: -225px; */
+}
+.container .instagram {
+  background-color: #c32aa3;
+  /* left: -150px; */
+}
+.container .twitter {
+  background-color: #1da1f2;
+  /* left: -75px; */
+}
+.container .github {
+  background-color: #333;
+  /* right: -75px; */
+}
+.container .behance {
+  background-color: #053eff;
+  /* right: -150px; */
+}
+.container .dribble {
+  background-color: #ea4c89;
+  /* right: -225px; */
+}
+
+.container .icon .icon-name {
+  position: absolute;
+  /* top: -70px; */
+  top: 0;
+  display: none;
+  /* width: 69px; */
+  /* height: 26px; */
+  font-family: poppins;
+  text-transform: capitalize;
+  font-size: 10px;
+  font-weight: 500;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.container .dribble .icon-name {
+  background-color: #ea4c89;
+}
+
+.container .facebook .icon-name {
+  background-color: #3b5998;
+}
+.container .instagram .icon-name {
+  background-color: #c32aa3;
+}
+
+.container .twitter .icon-name {
+  background-color: #1da1f2;
+}
+.container .github .icon-name {
+  background-color: #333;
+}
+.container .behance .icon-name {
+  background-color: #053eff;
+}
